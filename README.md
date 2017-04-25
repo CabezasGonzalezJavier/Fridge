@@ -3,7 +3,7 @@ JUnit Mockito
 
 
 <p align="center">
- <img src="https://github.com/CabezasGonzalezJavier/Fridge/blob/master/fridge.png" width="300px" />
+ <img src="https://github.com/CabezasGonzalezJavier/Fridge/blob/master/fridge.png" />
 </p>
 
 Also visit my blog: **[The developer world is yours](http://thedeveloperworldisyours.com/)**
