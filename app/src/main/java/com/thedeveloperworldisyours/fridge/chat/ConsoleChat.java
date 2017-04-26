@@ -1,4 +1,4 @@
-package com.thedeveloperworldisyours.fridge;
+package com.thedeveloperworldisyours.fridge.chat;
 
 import android.util.Log;
 

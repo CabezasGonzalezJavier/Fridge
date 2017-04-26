@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.thedeveloperworldisyours.fridge.MainActivity">
+    android:orientation="vertical"
+    tools:context="com.thedeveloperworldisyours.fridge.customer.CustomerActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -19,12 +20,14 @@
             android:minHeight="?attr/actionBarSize"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
-            <com.thedeveloperworldisyours.discernbeach.utils.customviews.TextViewFont
+            <TextView
                 android:id="@+id/theme_activity_toolbar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:typeface="monospace"
+                android:textSize="@dimen/activity_text_size_toolbar"
                 android:text="@string/app_name" />
-
 
         </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>
@@ -39,4 +42,4 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </android.support.design.widget.CoordinatorLayout>
-</RelativeLayout>
+</LinearLayout>

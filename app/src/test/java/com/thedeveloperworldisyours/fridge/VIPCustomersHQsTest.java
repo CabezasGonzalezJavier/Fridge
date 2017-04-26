@@ -1,5 +1,8 @@
 package com.thedeveloperworldisyours.fridge;
 
+import com.thedeveloperworldisyours.fridge.chat.Chat;
+import com.thedeveloperworldisyours.fridge.customer.Customer;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
