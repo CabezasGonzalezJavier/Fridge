@@ -33,4 +33,6 @@ ext {
     guavaVersion = '18.0'
     butterknife = '8.4.0'
     daggerVersion = '2.10'
+    espressoVersion = '2.2.2'
+    testSupportVersion = '0.5'
 }
