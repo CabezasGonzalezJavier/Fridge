@@ -22,7 +22,7 @@ public class CustomerPresenter implements CustomerContract.Presenter {
     private CustomerContract.View mView;
 
     @Inject
-    CustomerPresenter(Chat chat, CustomerContract.View view) {
+    public CustomerPresenter(Chat chat, CustomerContract.View view) {
         this.chat = chat;
         this.mView = view;
         this.kindersLeft = 10;

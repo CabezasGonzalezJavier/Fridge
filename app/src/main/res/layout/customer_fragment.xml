@@ -8,19 +8,25 @@
         android:id="@+id/customer_fragment_grab_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"/>
+        android:layout_above="@+id/customer_fragment_grab_button"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:inputType="number" />
+
     <Button
         android:id="@+id/customer_fragment_grab_button"
-        android:text="@string/customer_fragment_grab"
-        android:layout_below="@+id/customer_fragment_grab_edit_text"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/customer_fragment_kinder"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="@string/customer_fragment_grab" />
 
     <TextView
         android:id="@+id/customer_fragment_kinder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/activity_vertical_margin" />
 
 </RelativeLayout>
